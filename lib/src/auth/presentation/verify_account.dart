@@ -75,8 +75,8 @@ class _VerifyAccountScreenState extends ConsumerState<VerifyAccountScreen> {
       width: 56.sp,
       textStyle: AppTheme.textStyle(
         context,
-        fontSize: 20,
-        color: AppColors.black,
+        fontSize: 20.sp,
+        color: AppTheme.colorScheme(context).primary,
         weight: 6,
       ),
       decoration: BoxDecoration(),
